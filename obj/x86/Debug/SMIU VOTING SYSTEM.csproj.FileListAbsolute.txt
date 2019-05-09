@@ -1,0 +1,217 @@
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\e_sqlite3.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\App.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\AccountSettings.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\CastVote.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Dashboard.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\MainPage.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Parties.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Results.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SignUp.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Societies.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SMIU VOTING SYSTEM.xr.xml
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SMIU VOTING SYSTEM.exe
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SMIU VOTING SYSTEM.pdb
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\resources.pri
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\AppxManifest.xml
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Core\SMIU VOTING SYSTEM.exe
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SMIU VOTING SYSTEM.build.appxrecipe
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Firebase.Auth.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\System.Runtime.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SQLite-net.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SQLitePCLRaw.core.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SMIU VOTING SYSTEM.csprojAssemblyReference.cache
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\App.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\App.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\AccountSettings.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\AccountSettings.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\CastVote.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\CastVote.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Dashboard.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Dashboard.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\MainPage.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Parties.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Parties.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Results.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Results.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SignUp.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SignUp.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Societies.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Societies.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\App.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\AccountSettings.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\CastVote.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Dashboard.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\MainPage.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Parties.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Results.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SignUp.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Societies.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\App.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\AccountSettings.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\CastVote.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Dashboard.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\MainPage.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Parties.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Results.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SignUp.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Societies.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SMIU VOTING SYSTEM.csproj.CoreCompileInputs.cache
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SMIU VOTING SYSTEM.csproj.CopyComplete
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SMIU VOTING SYSTEM.exe
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\SMIU VOTING SYSTEM.pdb
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\priconfig.xml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\resources.resfiles
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\pri.resfiles
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\qualifiers.txt
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758372200000000.json
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Google.Protobuf.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\MySql.Data.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\MySql.Data\en-US\MySql.Data.Resources.resw
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\MySql.Data\en-US\MySql.Data.ResourcesX.resw
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\FxResources.System.Configuration.ConfigurationManager.SR.resw
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\FxResources.System.Security.Cryptography.ProtectedData.SR.resw
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Admin_Dashboard.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Admin_Dashboard.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Candidate_Form.g.i.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Candidate_Form.g.cs
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Admin_Dashboard.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Candidate_Form.xaml
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Admin_Dashboard.xbf
+C:\Users\BAHROZ\Downloads\voting\obj\x86\Debug\Candidate_Form.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Admin_Dashboard.xbf
+C:\Users\BAHROZ\Downloads\voting\bin\x86\Debug\Candidate_Form.xbf
+D:\voting\bin\x86\Debug\e_sqlite3.dll
+D:\voting\bin\x86\Debug\App.xbf
+D:\voting\bin\x86\Debug\AccountSettings.xbf
+D:\voting\bin\x86\Debug\Admin_Dashboard.xbf
+D:\voting\bin\x86\Debug\Candidate_Form.xbf
+D:\voting\bin\x86\Debug\CastVote.xbf
+D:\voting\bin\x86\Debug\Dashboard.xbf
+D:\voting\bin\x86\Debug\MainPage.xbf
+D:\voting\bin\x86\Debug\Parties.xbf
+D:\voting\bin\x86\Debug\Results.xbf
+D:\voting\bin\x86\Debug\SignUp.xbf
+D:\voting\bin\x86\Debug\Societies.xbf
+D:\voting\bin\x86\Debug\SMIU VOTING SYSTEM.xr.xml
+D:\voting\bin\x86\Debug\SMIU VOTING SYSTEM.exe
+D:\voting\bin\x86\Debug\SMIU VOTING SYSTEM.pdb
+D:\voting\bin\x86\Debug\resources.pri
+D:\voting\bin\x86\Debug\AppxManifest.xml
+D:\voting\bin\x86\Debug\Core\AppxManifest.xml
+D:\voting\bin\x86\Debug\Core\SMIU VOTING SYSTEM.exe
+D:\voting\bin\x86\Debug\SMIU VOTING SYSTEM.build.appxrecipe
+D:\voting\bin\x86\Debug\BouncyCastle.Crypto.dll
+D:\voting\bin\x86\Debug\Firebase.Auth.dll
+D:\voting\bin\x86\Debug\Google.Protobuf.dll
+D:\voting\bin\x86\Debug\Microsoft.Data.Sqlite.dll
+D:\voting\bin\x86\Debug\MySql.Data.dll
+D:\voting\bin\x86\Debug\Newtonsoft.Json.dll
+D:\voting\bin\x86\Debug\System.Runtime.dll
+D:\voting\bin\x86\Debug\SQLite-net.dll
+D:\voting\bin\x86\Debug\SQLitePCLRaw.batteries_green.dll
+D:\voting\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\voting\bin\x86\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+D:\voting\bin\x86\Debug\SQLitePCLRaw.core.dll
+D:\voting\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\voting\bin\x86\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+D:\voting\bin\x86\Debug\System.Configuration.ConfigurationManager.dll
+D:\voting\bin\x86\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\voting\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\voting\obj\x86\Debug\SMIU VOTING SYSTEM.csprojAssemblyReference.cache
+D:\voting\obj\x86\Debug\App.g.i.cs
+D:\voting\obj\x86\Debug\App.g.cs
+D:\voting\obj\x86\Debug\AccountSettings.g.i.cs
+D:\voting\obj\x86\Debug\AccountSettings.g.cs
+D:\voting\obj\x86\Debug\Admin_Dashboard.g.i.cs
+D:\voting\obj\x86\Debug\Admin_Dashboard.g.cs
+D:\voting\obj\x86\Debug\Candidate_Form.g.i.cs
+D:\voting\obj\x86\Debug\Candidate_Form.g.cs
+D:\voting\obj\x86\Debug\CastVote.g.i.cs
+D:\voting\obj\x86\Debug\CastVote.g.cs
+D:\voting\obj\x86\Debug\Dashboard.g.i.cs
+D:\voting\obj\x86\Debug\Dashboard.g.cs
+D:\voting\obj\x86\Debug\MainPage.g.i.cs
+D:\voting\obj\x86\Debug\MainPage.g.cs
+D:\voting\obj\x86\Debug\Parties.g.i.cs
+D:\voting\obj\x86\Debug\Parties.g.cs
+D:\voting\obj\x86\Debug\Results.g.i.cs
+D:\voting\obj\x86\Debug\Results.g.cs
+D:\voting\obj\x86\Debug\SignUp.g.i.cs
+D:\voting\obj\x86\Debug\SignUp.g.cs
+D:\voting\obj\x86\Debug\Societies.g.i.cs
+D:\voting\obj\x86\Debug\Societies.g.cs
+D:\voting\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\voting\obj\x86\Debug\App.xaml
+D:\voting\obj\x86\Debug\AccountSettings.xaml
+D:\voting\obj\x86\Debug\Admin_Dashboard.xaml
+D:\voting\obj\x86\Debug\Candidate_Form.xaml
+D:\voting\obj\x86\Debug\CastVote.xaml
+D:\voting\obj\x86\Debug\Dashboard.xaml
+D:\voting\obj\x86\Debug\MainPage.xaml
+D:\voting\obj\x86\Debug\Parties.xaml
+D:\voting\obj\x86\Debug\Results.xaml
+D:\voting\obj\x86\Debug\SignUp.xaml
+D:\voting\obj\x86\Debug\Societies.xaml
+D:\voting\obj\x86\Debug\App.xbf
+D:\voting\obj\x86\Debug\AccountSettings.xbf
+D:\voting\obj\x86\Debug\Admin_Dashboard.xbf
+D:\voting\obj\x86\Debug\Candidate_Form.xbf
+D:\voting\obj\x86\Debug\CastVote.xbf
+D:\voting\obj\x86\Debug\Dashboard.xbf
+D:\voting\obj\x86\Debug\MainPage.xbf
+D:\voting\obj\x86\Debug\Parties.xbf
+D:\voting\obj\x86\Debug\Results.xbf
+D:\voting\obj\x86\Debug\SignUp.xbf
+D:\voting\obj\x86\Debug\Societies.xbf
+D:\voting\obj\x86\Debug\XamlSaveStateFile.xml
+D:\voting\obj\x86\Debug\SMIU VOTING SYSTEM.csproj.CoreCompileInputs.cache
+D:\voting\obj\x86\Debug\SMIU VOTING SYSTEM.csproj.CopyComplete
+D:\voting\obj\x86\Debug\SMIU VOTING SYSTEM.exe
+D:\voting\obj\x86\Debug\SMIU VOTING SYSTEM.pdb
+D:\voting\obj\x86\Debug\ResourceHandlingTask.state
+D:\voting\obj\x86\Debug\priconfig.xml
+D:\voting\obj\x86\Debug\priconfig.xml.intermediate
+D:\voting\obj\x86\Debug\unfiltered.layout.resfiles
+D:\voting\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\voting\obj\x86\Debug\filtered.layout.resfiles
+D:\voting\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\voting\obj\x86\Debug\excluded.layout.resfiles
+D:\voting\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\voting\obj\x86\Debug\resources.resfiles
+D:\voting\obj\x86\Debug\resources.resfiles.intermediate
+D:\voting\obj\x86\Debug\pri.resfiles
+D:\voting\obj\x86\Debug\pri.resfiles.intermediate
+D:\voting\obj\x86\Debug\qualifiers.txt
+D:\voting\obj\x86\Debug\qualifiers.txt.intermediate
+D:\voting\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\voting\obj\x86\Debug\ProjectArchitectures.txt
+D:\voting\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758372200000000.json
