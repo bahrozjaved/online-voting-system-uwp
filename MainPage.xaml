@@ -19,7 +19,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-        <Grid Grid.RowSpan="3" Grid.Column="1" MaxHeight="500" BorderBrush="#D3D3D3" BorderThickness="2" Background="White" Height="Auto" CornerRadius="20">
+        <Grid Grid.RowSpan="3" Grid.Column="1" x:Name="grid" MaxHeight="500" BorderBrush="#D3D3D3" BorderThickness="2" Background="White" Height="Auto" CornerRadius="20">
             <RelativePanel >
                 <StackPanel Name="Logo"  Margin="58,30,0,0">
                     <PersonPicture ProfilePicture="Assets/logo.png" />

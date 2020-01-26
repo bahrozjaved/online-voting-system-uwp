@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid>
+        <Grid Background="#cccedb">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
@@ -33,16 +33,21 @@
                             <x:String>Litrary</x:String>
                         </ComboBox>
                         <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" >
-                            <Button Content="Update" Margin="24" Click="Button_Click"/>
+                            <Button Content="Update" Margin="24" Click="Button_ClickAccountSettingsUpdate"/>
                         </StackPanel>
-
-                        <PasswordBox Width="300" PlaceholderText="Password" Header= "Password" Margin="0,24,0,0" HorizontalAlignment="Center" PasswordChanged="PasswordBox_PasswordChanged"/>
-                        <PasswordBox Width="300" PlaceholderText="Confirm Password" Header= "Confirm Password" Margin="0,24,0,0" HorizontalAlignment="Center" PasswordChanged="PasswordBox_PasswordChanged_1"/>
-                        <Button HorizontalAlignment="Center" Margin="24"  Content="Change Passowrd" Click="Button_Click"/>
+                    </StackPanel>
+                </RelativePanel>
+            </Grid>
+            <Grid Grid.RowSpan="3" Grid.Column="1" MaxHeight="530" >
+                <RelativePanel>
+                    <StackPanel>
+                        <TextBlock Text="Update Password" FontSize="25" />
+                        <TextBox Width="300" PlaceholderText="Email" Header= "Email" x:Name="Reset_Password" Margin="0,24,0,0" HorizontalAlignment="Center" TextChanged="TextBox_TextChanged"/>
+                        <Button HorizontalAlignment="Center" Margin="24"  Content="Change Passowrd" Click="Button_ClickPasswordUpdateAsync"/>
+                        <TextBlock  x:Name="catchHandle"/>
                     </StackPanel>
                 </RelativePanel>
             </Grid>
         </Grid>
-
     </Grid>
 </Page>

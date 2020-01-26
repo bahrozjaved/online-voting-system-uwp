@@ -29,9 +29,9 @@ namespace SMIU_VOTING_SYSTEM
         {
             this.InitializeComponent();
             BackButton.Visibility = Visibility.Collapsed;
-            MyFrame.Navigate(typeof(Societies));
+            MyFrame.Navigate(typeof(events));
             TitleTextBlock.Text = "Societies";
-            Societies.IsSelected = true;
+            
         }
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
@@ -45,19 +45,7 @@ namespace SMIU_VOTING_SYSTEM
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (Societies.IsSelected)
-            {
-                BackButton.Visibility = Visibility.Collapsed;
-                MyFrame.Navigate(typeof(Societies));
-                TitleTextBlock.Text = "Societies";
-            }
-            else if (Parties.IsSelected)
-            {
-                BackButton.Visibility = Visibility.Visible;
-                MyFrame.Navigate(typeof(Parties));
-                TitleTextBlock.Text = "Parties";
-            }
-            else if (Results.IsSelected)
+             if (Results.IsSelected)
             {
                 BackButton.Visibility = Visibility.Visible;
                 MyFrame.Navigate(typeof(Results));
@@ -75,10 +63,21 @@ namespace SMIU_VOTING_SYSTEM
                 MyFrame.Navigate(typeof(AccountSettings));
                 TitleTextBlock.Text = "Account Settings";
             }
+            else if (ElectionControl.IsSelected)
+            {
+                BackButton.Visibility = Visibility.Visible;
+                MyFrame.Navigate(typeof(Election_Controls));
+                TitleTextBlock.Text = "Account Settings";
+            }
             else if (Logout.IsSelected)
             {
                 this.Frame.Navigate(typeof(MainPage));
             }
+        }
+
+        private void MyFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
         }
     }
 }

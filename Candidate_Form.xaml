@@ -7,8 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#cccedb">
 
-    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
@@ -16,28 +16,28 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-        <Grid  Grid.RowSpan="3" Grid.Column="0" MaxHeight="650">
+        <Grid  Grid.Row="1" Grid.RowSpan="3" Grid.Column="1" MaxHeight="650">
             <RelativePanel>
                 <StackPanel Height="682" Width="429">
                     <TextBox x:Name="name" Width="300" PlaceholderText="Name" Header= "Candidate Name" Margin="0,24,0,0" HorizontalAlignment="Center" TextChanged="TextBox_TextChanged"/>
 
                     <ComboBox x:Name="Designation" Width="300" HorizontalAlignment="Center" Margin="0,24,0,0"  Header= "Designation"  PlaceholderText="Select Designation" SelectionChanged="ComboBox_SelectionChanged" >
                         <x:String>President</x:String>
-                        <x:String>Vice President</x:String>
+                        <x:String>Vice_President</x:String>
                         <x:String>Treasurer</x:String>
-                        <x:String>Male Secretary</x:String>
-                        <x:String>Female Secretary</x:String>
+                        <x:String>Male_Secretary</x:String>
+                        <x:String>Female_Secretary</x:String>
                     </ComboBox>
 
                     <ComboBox x:Name="society" Width="300" HorizontalAlignment="Center" Margin="0,24,0,0"  Header= "Society Name"  PlaceholderText="Society Name" SelectionChanged="ComboBox_SelectionChanged" >
-                        <x:String>Arts</x:String>
-                        <x:String> Literary</x:String>
-                        <x:String> Sports</x:String>
-                        <x:String> community </x:String>
-     
+                        <x:String>arts</x:String>
+                        <x:String>community</x:String>
+                        <x:String>science</x:String>
+                        <x:String>literary</x:String>
+                        <x:String>sports</x:String>
                     </ComboBox>
 
                    

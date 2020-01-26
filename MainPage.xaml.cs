@@ -71,6 +71,8 @@ namespace SMIU_VOTING_SYSTEM
                 FirebaseAuthLink value = await firebaseAuth.SignInWithEmailAndPasswordAsync(email.Text, password.Password);
                 this.uid = value.User.LocalId;
 
+                App.uid = this.uid;
+
                 try
                 {
                     databaseConnection.Open();

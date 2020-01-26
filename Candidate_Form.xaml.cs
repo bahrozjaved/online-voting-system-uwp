@@ -44,21 +44,11 @@ namespace SMIU_VOTING_SYSTEM
         {
             MySqlConnection databaseConnection = new MySqlConnection(MyConnectionString);
 
-            if (society.SelectedValue.ToString() == "Arts")
+            if (society.SelectedValue.ToString() == "arts")
             {
-                string query = "INSERT INTO arts(candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" + society.SelectedValue.ToString()+ "')";
-                databaseConnection.Open();
-                MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
-                commandDatabase.ExecuteNonQuery();
-                commandDatabase.CommandTimeout = 60;
-                databaseConnection.Close();
-                catchHandle.Text = "Candidate Registered";
-            }
-            else if (society.SelectedValue.ToString() == "community")
-            {
-                
-                
-                    string query = "INSERT INTO community(candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" +society.SelectedValue.ToString() + "')";
+                try
+                {
+                    string query = "INSERT INTO arts(candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" + society.SelectedValue.ToString() + "')";
                     databaseConnection.Open();
                     MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
                     commandDatabase.ExecuteNonQuery();
@@ -66,30 +56,94 @@ namespace SMIU_VOTING_SYSTEM
                     databaseConnection.Close();
                     catchHandle.Text = "Candidate Registered";
                 }
-            else if (society.SelectedValue.ToString() == "Literary" )
+                catch (Exception ex)
+                {
+                    catchHandle.Text = ex.Message.ToString();
+                    throw;
+                }
+            }
+            else if (society.SelectedValue.ToString() == "community")
             {
 
 
-                string query = "INSERT INTO literary (candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" + society.SelectedValue.ToString() +  "')";
-                databaseConnection.Open();
-                MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
-                commandDatabase.ExecuteNonQuery();
-                commandDatabase.CommandTimeout = 60;
-                databaseConnection.Close();
-                catchHandle.Text = "Candidate Registered";
+                try
+                {
+                    string query = "INSERT INTO community(candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" + society.SelectedValue.ToString() + "')";
+                    databaseConnection.Open();
+                    MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+                    commandDatabase.ExecuteNonQuery();
+                    commandDatabase.CommandTimeout = 60;
+                    databaseConnection.Close();
+                    catchHandle.Text = "Candidate Registered";
+                }
+                catch (Exception ex)
+                {
+                    catchHandle.Text = ex.Message.ToString();
+                    throw;
+                }
             }
-            else if (society.SelectedValue.ToString() == "Sports" )
+            else if (society.SelectedValue.ToString() == "literary" )
             {
 
 
-                string query = "INSERT INTO sports (candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','"  + society.SelectedValue.ToString() + "')";
-                databaseConnection.Open();
-                MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
-                commandDatabase.ExecuteNonQuery();
-                commandDatabase.CommandTimeout = 60;
-                databaseConnection.Close();
-                catchHandle.Text = "Candidate Registered";
+                try
+                {
+                    string query = "INSERT INTO literary (candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" + society.SelectedValue.ToString() + "')";
+                    databaseConnection.Open();
+                    MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+                    commandDatabase.ExecuteNonQuery();
+                    commandDatabase.CommandTimeout = 60;
+                    databaseConnection.Close();
+                    catchHandle.Text = "Candidate Registered";
+                }
+                catch (Exception ex)
+                {
+                    catchHandle.Text = ex.Message.ToString();
+                    throw;
+                }
             }
+            else if (society.SelectedValue.ToString() == "sports" )
+            {
+
+
+                try
+                {
+                    string query = "INSERT INTO sports (candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" + society.SelectedValue.ToString() + "')";
+                    databaseConnection.Open();
+                    MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+                    commandDatabase.ExecuteNonQuery();
+                    commandDatabase.CommandTimeout = 60;
+                    databaseConnection.Close();
+                    catchHandle.Text = "Candidate Registered";
+                }
+                catch (Exception ex)
+                {
+                    catchHandle.Text = ex.Message.ToString();
+                    throw;
+                }
+            }
+
+            else if (society.SelectedValue.ToString() == "science")
+            {
+
+
+                try
+                {
+                    string query = "INSERT INTO science (candidate_Name,Designation,society) values( '" + name.Text + "','" + Designation.SelectedValue.ToString() + "','" + society.SelectedValue.ToString() + "')";
+                    databaseConnection.Open();
+                    MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+                    commandDatabase.ExecuteNonQuery();
+                    commandDatabase.CommandTimeout = 60;
+                    databaseConnection.Close();
+                    catchHandle.Text = "Candidate Registered";
+                }
+                catch (Exception ex)
+                {
+                    catchHandle.Text = ex.Message.ToString();
+                    throw;
+                }
+            }
+
             else
             {
 

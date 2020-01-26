@@ -29,10 +29,11 @@
                         <TextBox x:Name="address" Width="300" PlaceholderText="Address" Header= "Address" Margin="0,24,0,0" HorizontalAlignment="Center" TextChanged="TextBox_TextChanged"/>
                         <TextBox x:Name="studentid" Width="300" PlaceholderText="Student ID" Header= "Student ID" Margin="0,24,0,0" HorizontalAlignment="Center" TextChanged="TextBox_TextChanged"/>
                         <ComboBox x:Name="society" Width="300" HorizontalAlignment="Center" Margin="0,24,0,0"  Header= "Society"  PlaceholderText="Select Society" SelectionChanged="ComboBox_SelectionChanged" >
-                            <x:String>Arts</x:String>
-                            <x:String>Community</x:String>
-                            <x:String>Science</x:String>
-                            <x:String>Litrary</x:String>
+                            <x:String>arts</x:String>
+                            <x:String>community</x:String>
+                            <x:String>science</x:String>
+                            <x:String>litrary</x:String>
+                            <x:String>sports</x:String>
                         </ComboBox>
 
 

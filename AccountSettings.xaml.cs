@@ -12,6 +12,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Firebase.Auth;
+using System.Data;
+using MySql.Data.MySqlClient;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -24,6 +27,7 @@ namespace SMIU_VOTING_SYSTEM
     {
         public AccountSettings()
         {
+
             this.InitializeComponent();
         }
 
@@ -42,14 +46,24 @@ namespace SMIU_VOTING_SYSTEM
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
+
+        private void Button_ClickAccountSettingsUpdate(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_ClickPasswordUpdateAsync(object sender, RoutedEventArgs e)
+        {
+            var firebaseAuth = new FirebaseAuthProvider(new FirebaseConfig("AIzaSyBqJIWuT5yhbX9Ra0MVMqMDrL6Buict_QQ"));
+                var firebase = firebaseAuth.SendPasswordResetEmailAsync(Reset_Password.Text);
+            catchHandle.Text = "Password reset email sent please check inbox";
+
+        }
     }
 }
+

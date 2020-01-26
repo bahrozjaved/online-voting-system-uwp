@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="#cccedb">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -41,23 +41,12 @@
         <SplitView  Grid.Row="1" 
                    Name="MySplitView"
                    DisplayMode="CompactOverlay" 
-                   OpenPaneLength="200" 
-                   CompactPaneLength="56">
+                   OpenPaneLength="300" 
+                   CompactPaneLength="70">
             <SplitView.Pane>
                 <ListBox SelectionMode="Single" 
                         Background="#6abf4e"  SelectionChanged="ListBox_SelectionChanged">
-                    <ListBoxItem  Name="Societies">
-                        <StackPanel  Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE80F;" />
-                            <TextBlock FontSize="24" Margin="20,0,0,0">Societies</TextBlock>
-                        </StackPanel>
-                    </ListBoxItem>
-                    <ListBoxItem Name="Parties">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE1CE;" />
-                            <TextBlock FontSize="24" Margin="20,0,0,0">Parties</TextBlock>
-                        </StackPanel>
-                    </ListBoxItem>
+                    
                     <ListBoxItem Name="Results">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="" />
@@ -76,6 +65,12 @@
                             <TextBlock FontSize="24" Margin="20,0,0,0">Settings</TextBlock>
                         </StackPanel>
                     </ListBoxItem>
+                    <ListBoxItem Name="ElectionControl">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE181;" />
+                            <TextBlock FontSize="24" Margin="20,0,0,0">Election Controls</TextBlock>
+                        </StackPanel>
+                    </ListBoxItem>
                     <ListBoxItem Name="Logout">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="" />
@@ -85,7 +80,7 @@
                 </ListBox>
             </SplitView.Pane>
             <SplitView.Content>
-                <Frame Name="MyFrame"></Frame>
+                <Frame Name="MyFrame" Navigated="MyFrame_Navigated"></Frame>
             </SplitView.Content>
 
         </SplitView>

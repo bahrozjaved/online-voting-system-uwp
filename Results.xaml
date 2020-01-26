@@ -8,34 +8,50 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+
+    <Grid >
         <ScrollViewer>
-            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid Background="#cccedb">
                 <Grid.Resources>
                     <x:Double x:Key="TileHeight">150</x:Double>
                 </Grid.Resources>
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
                     <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions> 
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
                     <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="1*" />
                 </Grid.RowDefinitions>
 
-                <Grid Grid.Row="1" Grid.Column="1" MinHeight="{StaticResource TileHeight}" Background="DarkGray" Margin="6" />
-                <Grid Grid.Row="1" Grid.Column="2" MinHeight="{StaticResource TileHeight}" Background="LightGray" Margin="6" />
-                <Grid Grid.Row="2" Grid.Column="1" MinHeight="{StaticResource TileHeight}" Background="LightGray" Margin="6" />
-                <Grid Grid.Row="2" Grid.Column="2" MinHeight="{StaticResource TileHeight}" Background="DarkGray" Margin="6" />
-                <Grid x:Name="SourceElement" Grid.Row="1" Grid.Column="0" MinHeight="{StaticResource TileHeight}" Background="{ThemeResource SystemAccentColor}" Margin="5" Grid.RowSpan="2" MinWidth="250" />
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <StackPanel>
 
-                <Grid Grid.Row="3" Grid.ColumnSpan="3" Margin="6,12">
-                    <TextBlock TextWrapping="WrapWholeWords" Style="{ThemeResource BodyTextBlockStyle}" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+                        <ComboBox x:Name="changeresults" Width="300" HorizontalAlignment="Center" Margin="0,24,0,0"  Header= "Society Name"  PlaceholderText="Society Name" SelectionChanged="ComboBox_SelectionChanged" >
+                            <x:String>arts</x:String>
+                            <x:String>community</x:String>
+                            <x:String>science</x:String>
+                            <x:String>literary</x:String>
+                            <x:String>sports</x:String>
+                        </ComboBox>
+                        
+                        
+                        <GridView Header="President " FontSize="30"  ItemsSource="{x:Bind presidentItems}" />
+                        <GridView Header="VicePresident " FontSize="30" ItemsSource="{x:Bind vicepresidentItems}" />
+                        <GridView Header="Tresurer " FontSize="30" ItemsSource="{x:Bind treasurerItems}" />
+                        <GridView Header=" MaleSecretary" FontSize="30" ItemsSource="{x:Bind msecItems}" />
+                        <GridView Header="FemaleSecretary " FontSize="30" ItemsSource="{x:Bind fsecItems}" />
+
+                    </StackPanel>
                 </Grid>
+
+
+                <TextBlock x:Name="catchHandle"/>
+                
             </Grid>
         </ScrollViewer>
+        <Grid/>
     </Grid>
 </Page>

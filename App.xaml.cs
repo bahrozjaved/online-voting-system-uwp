@@ -24,13 +24,16 @@ namespace SMIU_VOTING_SYSTEM
     /// </summary>
     sealed partial class App : Application
     {
-        string MyConnectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=users;";
+        // string MyConnectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=users;";
 
+        public static string uid;
+
+      
         // This is an example connection string for using SQL Server Authentication.
         // private string connectionString =
         //     @"Data Source=YourServerName\YourInstanceName;Initial Catalog=DatabaseName; User Id=XXXXX; Password=XXXXX";
 
-        public string ConnectionString { get => MyConnectionString; set => MyConnectionString = value; }
+       // public string ConnectionString { get => MyConnectionString; set => MyConnectionString = value; }
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().

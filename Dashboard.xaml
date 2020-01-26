@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid >
+    <Grid Background="#cccedb" >
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -46,15 +46,15 @@
             <SplitView.Pane>
                 <ListBox SelectionMode="Single" 
                         Background="#6abf4e"  SelectionChanged="ListBox_SelectionChanged">
-                    <ListBoxItem  Name="Societies">
+                    <ListBoxItem  Name="Events">
                         <StackPanel  Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE80F;" />
-                            <TextBlock FontSize="24" Margin="20,0,0,0">Societies</TextBlock>
+                            <TextBlock FontSize="24" Margin="20,0,0,0">Events</TextBlock>
                         </StackPanel>
                     </ListBoxItem>
                     <ListBoxItem Name="Parties">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE1CE;" />
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE716;" />
                             <TextBlock FontSize="24" Margin="20,0,0,0">Parties</TextBlock>
                         </StackPanel>
                     </ListBoxItem>
@@ -76,10 +76,16 @@
                             <TextBlock FontSize="24" Margin="20,0,0,0">Settings</TextBlock>
                         </StackPanel>
                     </ListBoxItem>
+                    <ListBoxItem Name="About">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE1CE;" />
+                            <TextBlock FontSize="24" Margin="20,0,0,0">About</TextBlock>
+                        </StackPanel>
+                    </ListBoxItem>
                     <ListBoxItem Name="Logout">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="" />
-                            <TextBlock FontSize="24" Margin="20,0,0,0">Logout</TextBlock>
+                            <TextBlock FontSize="24" Margin="20,0,0,0" SelectionChanged="TextBlock_SelectionChanged">Logout</TextBlock>
                         </StackPanel>
                     </ListBoxItem>
                 </ListBox>

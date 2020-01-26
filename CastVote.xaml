@@ -5,36 +5,42 @@
     xmlns:local="using:SMIU_VOTING_SYSTEM"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Grid>
+    mc:Ignorable="d">
+    
+    <Grid Name="castVoteGrid" >
         <ScrollViewer>
-            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Grid Background="#cccedb" >
                 <Grid.Resources>
                     <x:Double x:Key="TileHeight">150</x:Double>
                 </Grid.Resources>
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
                     <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="1*" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
                     <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="1*" />
                 </Grid.RowDefinitions>
+                    <Grid Grid.Row="1" Grid.Column="1">
+                        <StackPanel  >
+                        <ComboBox x:Name="presidentbox" Header="President" Margin="30" FontSize="16" Height="60" Width="296" 
+          ItemsSource="{x:Bind president1}" DisplayMemberPath="Source"/>
+                        <ComboBox x:Name="tres" Header="Treasurar"  FontSize="16"  Margin="30" Height="60" Width="296" 
+          ItemsSource="{x:Bind treasure}" DisplayMemberPath="Source"/>
+                        <ComboBox x:Name="vpresidentboc" Header="Vice President"  Margin="30" FontSize="16" Height="60" Width="296" 
+          ItemsSource="{x:Bind vpresident}" DisplayMemberPath="Source"/>
+                        <ComboBox x:Name="msec" Header="Male Secretary"  Margin="30" FontSize="16" Height="60" Width="296" 
+          ItemsSource="{x:Bind msecretary}" DisplayMemberPath="Source"/>
+                        <ComboBox x:Name="fsec" Header="Female Secretary"  Margin="30" FontSize="16" Height="60" Width="296" 
+          ItemsSource="{x:Bind fsecretary}" DisplayMemberPath="Source"/>
+                        <Button x:Name="casteVoteButton" Content="Add vote" Margin="20" HorizontalAlignment="Center" Click="Button_ClickAsync"/>
+                        <TextBlock  x:Name="catchHandle"/>
 
-                <Grid Grid.Row="1" Grid.Column="1" MinHeight="{StaticResource TileHeight}" Background="DarkGray" Margin="6" />
-                <Grid Grid.Row="1" Grid.Column="2" MinHeight="{StaticResource TileHeight}" Background="LightGray" Margin="6" />
-                <Grid Grid.Row="2" Grid.Column="1" MinHeight="{StaticResource TileHeight}" Background="LightGray" Margin="6" />
-                <Grid Grid.Row="2" Grid.Column="2" MinHeight="{StaticResource TileHeight}" Background="DarkGray" Margin="6" />
-                <Grid x:Name="SourceElement" Grid.Row="1" Grid.Column="0" MinHeight="{StaticResource TileHeight}" Background="{ThemeResource SystemAccentColor}" Margin="5" Grid.RowSpan="2" MinWidth="250" />
+                    </StackPanel>
+                    </Grid>
 
-                <Grid Grid.Row="3" Grid.ColumnSpan="3" Margin="6,12">
-                    <TextBlock TextWrapping="WrapWholeWords" Style="{ThemeResource BodyTextBlockStyle}" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-                </Grid>
             </Grid>
         </ScrollViewer>
     </Grid>

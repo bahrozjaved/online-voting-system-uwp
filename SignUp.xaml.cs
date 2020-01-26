@@ -26,7 +26,6 @@ namespace SMIU_VOTING_SYSTEM
     {
         public string uid;
         string MyConnectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=users;";
-
         public SignUp()
         {
             this.InitializeComponent();
@@ -58,13 +57,14 @@ namespace SMIU_VOTING_SYSTEM
                 {
                     FirebaseAuthLink value = await firebaseAuth.CreateUserWithEmailAndPasswordAsync(email.Text, password.Password);
                     this.uid = value.User.LocalId;
+                    App.uid = value.User.LocalId;
                     if (this.uid != null)
                     {
 
                         try
                         {
                             MySqlConnection databaseConnection = new MySqlConnection(MyConnectionString);
-                            string query = "INSERT INTO users_data(uid,email,studentid,society,address,isadmin,password) values( '"+uid+"','"+email.Text+"','"+studentid.Text+"','"+society.SelectedValue.ToString()+"','"+address.Text+"','"+0+ "','" + password.Password + "')";
+                            string query = "INSERT INTO users_data(uid,email,studentid,society,address,isadmin) values( '"+uid+"','"+email.Text+"','"+studentid.Text+"','"+society.SelectedValue.ToString()+"','"+address.Text+"','"+0+ "')";
                             databaseConnection.Open();
                             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
                             commandDatabase.ExecuteNonQuery();
@@ -89,7 +89,7 @@ namespace SMIU_VOTING_SYSTEM
                 }
                 catch (Exception ex)
                 {
-                    catchHandle.Text = "Connection Error";
+                    catchHandle.Text = "Connection Error or User Already Exists";
                 }
 
                 return;
